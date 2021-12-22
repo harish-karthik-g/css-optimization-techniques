@@ -1,0 +1,22 @@
+{
+  "name": "css-optimization-techniques",
+  "version": "1.0.0",
+  "description": "The optimization methods used can be considered a 3 step process. Each step optimizing the css further and by the final step, the css is reduced to the bare minimum. So it is advised to follow the steps in order for better optimization and results. Each code optimization technique will have two branches. One is before the implementation and the other is after implementation. The main/master branch will have the code with all the changes implemented and the final build that is available for production. Each branch will also have a setup document to explain how to setup the tools for that particular task and its config to reproduce similar effects.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss ./css/bootstrap.css -o ./css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:harish-karthik-g/css-optimization-techniques.git"
+  },
+  "keywords": [],
+  "author": "Harish Karthik",
+  "license": "ISC",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0"
+  }
+}
